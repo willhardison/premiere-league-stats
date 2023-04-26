@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/premiere-league-stats/static/css/main.6fb9a8d0.css",
-    "main.js": "/premiere-league-stats/static/js/main.92c9d6cd.js",
+    "main.css": "/premiere-league-stats/static/css/main.5d65b71b.css",
+    "main.js": "/premiere-league-stats/static/js/main.3c0276dd.js",
     "static/media/chart-page-image.png": "/premiere-league-stats/static/media/chart-page-image.c4a3da4fc80a83180417.png",
     "static/media/homepage-image.png": "/premiere-league-stats/static/media/homepage-image.9f9efe236976ed498e66.png",
     "index.html": "/premiere-league-stats/index.html",
-    "main.6fb9a8d0.css.map": "/premiere-league-stats/static/css/main.6fb9a8d0.css.map",
-    "main.92c9d6cd.js.map": "/premiere-league-stats/static/js/main.92c9d6cd.js.map"
+    "main.5d65b71b.css.map": "/premiere-league-stats/static/css/main.5d65b71b.css.map",
+    "main.3c0276dd.js.map": "/premiere-league-stats/static/js/main.3c0276dd.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fb9a8d0.css",
-    "static/js/main.92c9d6cd.js"
+    "static/css/main.5d65b71b.css",
+    "static/js/main.3c0276dd.js"
   ]
 }
