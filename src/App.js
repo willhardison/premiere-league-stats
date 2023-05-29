@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Homepage from "./HomePage/Homepage";
+import ChartPage from "./ChartPage/ChartPage";
+import StatsPage from "./StatsPage/StatsPage";
+import APIPage from "./APIPage/APIPage";
+import "./App.css";
+import { useEffect } from "react";
 
-function App() {
+const App = () => {
+  useEffect(() => {
+    document.title = "FootyMetrics";
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Routes>
+        <Route path="/premiere-league-stats" element={<Homepage />} />
+        <Route path="/premiere-league-stats/chart" element={<ChartPage />} />
+        <Route path="/premiere-league-stats/stats" element={<StatsPage />} />
+        <Route path="/premiere-league-stats/api" element={<APIPage />} />
+      </Routes>
     </div>
   );
-}
+};
 
 export default App;
